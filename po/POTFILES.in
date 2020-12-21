@@ -234,6 +234,7 @@ lib/framework/frameresource.cpp
 lib/framework/geometry.cpp
 lib/framework/i18n.cpp
 lib/framework/lexer_input.cpp
+lib/framework/physfs_ext.cpp
 lib/framework/stdio_ext.cpp
 lib/framework/strres.cpp
 lib/framework/treap.cpp
@@ -242,6 +243,7 @@ lib/framework/utf.cpp
 lib/framework/wzconfig.cpp
 lib/framework/wzpaths.cpp
 lib/framework/wzstring.cpp
+lib/framework/wztime.cpp
 lib/gamelib/gtime.cpp
 lib/ivis_opengl/3rdparty/stb_image_resize.cpp
 lib/ivis_opengl/3rdparty/vk_mem_alloc.cpp
@@ -294,6 +296,7 @@ lib/widget/editbox.cpp
 lib/widget/form.cpp
 lib/widget/label.cpp
 lib/widget/listwidget.cpp
+lib/widget/paragraph.cpp
 lib/widget/scrollablelist.cpp
 lib/widget/scrollbar.cpp
 lib/widget/slider.cpp
@@ -314,6 +317,7 @@ src/aud.cpp
 src/baseobject.cpp
 src/bucket3d.cpp
 src/challenge.cpp
+src/chat.cpp
 src/cheat.cpp
 src/clparse.cpp
 src/cmddroid.cpp
@@ -372,6 +376,7 @@ src/multiplay.cpp
 src/multistat.cpp
 src/multistruct.cpp
 src/multisync.cpp
+src/musicmanager.cpp
 src/nethelpers.cpp
 src/notifications.cpp
 src/objects.cpp
@@ -384,6 +389,7 @@ src/projectile.cpp
 src/qtscript.cpp
 src/qtscriptdebug.cpp
 src/qtscriptfuncs.cpp
+src/quickjs_backend.cpp
 src/radar.cpp
 src/random.cpp
 src/raycast.cpp
@@ -413,4 +419,5 @@ src/warcam.cpp
 src/warzoneconfig.cpp
 src/wavecast.cpp
 src/wrappers.cpp
+src/wzapi.cpp
 src/wzpropertyproviders.cpp
